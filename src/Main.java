@@ -2,6 +2,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.Arrays;
 
+/*  author @warriordescens  */
+
 class RotatingCube extends JPanel {
     static float A, B, C;
     static float cubeWidth = 20;
