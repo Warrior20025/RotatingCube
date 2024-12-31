@@ -19,7 +19,7 @@ class RotatingCube extends JPanel {
         RotatingCube rotatingCube = new RotatingCube();
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(800, 600);
+        frame.setSize(900, 600);
         frame.add(rotatingCube);
         frame.setVisible(true);
 
@@ -48,7 +48,8 @@ class RotatingCube extends JPanel {
         Arrays.fill(buffer, (char) backgroundASCIICode);
         Arrays.fill(zBuffer, 0);
 
-        cubeWidth = 20;
+        //ajustar tamaño aqui:
+        cubeWidth = 25;
         horizontalOffset = 0;
 
         for (float cubeX = -cubeWidth; cubeX < cubeWidth; cubeX += incrementSpeed) {
