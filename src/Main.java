@@ -2,7 +2,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.Arrays;
 
-/*  author @warriordescens  */
+/**
+ *
+ * @author warriordescens
+ */
 
 class RotatingCube extends JPanel {
     static float A, B, C;
